@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting-default >
+    <!-- 打开桌面页面循环 默认开启 true， 关闭 false -->
+    <bool name="desktop_loop_open">true</bool>
+
+    <!-- 是否固定屏幕 默认是 true， 否 false -->
+    <bool name="screen_locked">false</bool>
+
+    <!-- 打开负一屏功能 默认开启 true， 关闭 false -->
+    <bool name="minus_open_enable">true</bool>
+
+    <!-- 桌面模式 可选值：
+            default:    单层模式
+            classic:    经典双层模式
+     -->
+    <string name="desktop_mode">default</string>
+
+    <!-- 单层模式下，安装应用显示页面索引 可选值
+            -1    :        默认值，根据桌面布局文件配置的页面数量来确定
+            0~n   :        页面索引，n不能大于桌面布局文件配置页面数量
+    -->
+    <int name="start_page">-1</int>
+
+    <!-- 页面切换特效 可选值：
+            Classic:    Classic
+            Turntable:  Turntable
+            Layered:    Layered
+            Rotate:     Rotate
+            PageTurn:   Page Turn
+            Card:       Card
+            Compass:    Compass
+            Cube:       Cube
+     -->
+    <string name="effect">Classic</string>
+</setting-default>

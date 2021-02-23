@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_desktop_mode_names">
+        <item>Disposition classique simple: toutes les applications apparaissent sur le bureau.</item>
+        <item>Disposition classique double: toutes les applications sont rangées dans le  menu principal.</item>
+    </string-array>
+</resources>

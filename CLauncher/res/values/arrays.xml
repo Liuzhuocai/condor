@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_desktop_mode_names">
+        <item>Classic single layer, all applications flat out on the desktop.</item>
+        <item>Classic double layer, all applications are arranged in the main menu.</item>
+    </string-array>
+    <string-array name="pref_wallpaper_layout_names">
+        <item>@string/wallpaper_allow_scrolling</item>
+        <item>@string/wallpaper_lock_left</item>
+        <item>@string/wallpaper_centered_lock</item>
+        <item>@string/wallpaper_lock_right</item>
+    </string-array>
+    <string-array name="pref_wallpaper_layout_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<custommodelworkspaces>
+
+    <model_woekspace>
+        <model_phone>condor001</model_phone>
+        <profiles_name>Pixel (Display Size set to Largest)</profiles_name>
+    </model_woekspace>
+
+    <model_woekspace>
+        <model_phone>condor002</model_phone>
+        <profiles_name>High DPI (4x4)</profiles_name>
+    </model_woekspace>
+
+    <model_woekspace>
+        <model_phone>Allure M3</model_phone>
+        <profiles_name>allure_m3</profiles_name>
+    </model_woekspace>
+    <model_woekspace>
+        <model_phone>Plume L2 Pro</model_phone>
+        <profiles_name>plume_l2_pro</profiles_name>
+    </model_woekspace>
+
+    <model_woekspace>
+        <model_phone>Griffe T6</model_phone>
+        <profiles_name>griffe_t6</profiles_name>
+    </model_woekspace>
+
+</custommodelworkspaces>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.condor.launcher.views.ClearAllButton
+    android:id="@+id/clear_all_button"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical">
+    <com.condor.launcher.views.WaveView
+        android:id="@+id/clear_button"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:clickable="true"/>
+    <TextView
+        android:id="@+id/memory_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/workspaceTextColor"
+        android:gravity="start"
+        android:textSize="11dp"/>
+</com.condor.launcher.views.ClearAllButton>

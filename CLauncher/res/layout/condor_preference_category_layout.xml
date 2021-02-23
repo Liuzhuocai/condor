@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/condor_settings_category_height"
+    android:gravity="center_vertical"
+    android:textDirection="locale"
+    android:paddingStart="@dimen/condor_settings_padding_left"
+    android:paddingEnd="@dimen/condor_settings_padding_right"
+    android:singleLine="true"
+    android:textSize="@dimen/condor_settings_title_size"
+    android:textColor="?android:attr/textColorHint" />

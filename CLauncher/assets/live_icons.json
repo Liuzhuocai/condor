@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "liveIcons": ["calendar", "clockDial"],
+  "calendar": {
+    "background": "@mipmap/ic_live_calendar",
+    "paddingTop": 0.28,
+    "components": [
+      "com.android.calendar/com.android.calendar.AllInOneActivity",
+      "com.google.android.calendar/com.android.calendar.AllInOneActivity"
+    ],
+    "weekText": {
+      "size": 7,
+      "color": "#ff4265",
+      "font": "Roboto-Regular.ttf"
+    },
+    "dayText": {
+      "size": 32,
+      "color": "#3c4650",
+      "font": "font_thick.ttf"
+    }
+  },
+  "clockText": {
+    "background": "@mipmap/ic_live_clock",
+    "paddingTop": 0.18,
+    "components": [
+      "com.android.deskclock/com.android.deskclock.AlarmClock",
+      "com.android.deskclock/com.android.deskclock.DeskClock"
+    ],
+    "hourText": {
+      "size": 12,
+      "color": "#3c4650",
+      "font": "Roboto-Regular.ttf"
+    },
+    "minuteText": {
+      "size": 12,
+      "color": "#3c4650",
+      "font": "Roboto-Thin.ttf"
+    },
+    "semiText": {
+      "size": 12,
+      "color": "#3c4650",
+      "font": "Roboto-Thin.ttf"
+    }
+  },
+  "clockDial": {
+    "background": "@mipmap/ic_live_clock",
+    "components": [
+      "com.android.deskclock/com.android.deskclock.AlarmClock",
+      "com.android.deskclock/com.android.deskclock.DeskClock"
+    ],
+    "hour": "@drawable/ic_live_clock_hour",
+    "minute": "@drawable/ic_live_clock_minute",
+    "second": "@drawable/ic_live_clock_second"
+  }
+}

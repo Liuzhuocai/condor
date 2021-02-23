@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notice_dot_title">通知圆点</string>
+    <string name="wallpaper_lock_title">壁纸锁定</string>
+
+
+    <string name="pick_image">选择图片</string>
+    <string name="setwallpaper_failed">设置壁纸失败</string>
+
+
+
+
+
+
+    <string name="about">关于</string>
+    <string name="title_app_suggestions">应用建议</string>
+    <string name="summary_app_suggestions">在所有应用程序列表的顶部显示应用程序建议</string>
+
+
+    <!-- Hidden app -->
+    <string name="hide_app">隐藏应用</string>
+    <string name="hide_app_sum">从app抽屉中隐藏应用</string>
+    <string name="hidden_app">所有应用</string>
+    <string name="more">更多</string>
+
+    <!-- Swipe up indicator -->
+
+
+
+    <!-- Hide/Show search bars -->
+    <string name="top_search_bar_title">顶部搜索栏</string>
+    <string name="top_search_bar_summary">在app抽屉的顶部显示底部搜索</string>
+
+
+    <string name="theme_config_read_error">主题读取错误</string>
+
+
+    <string name="rename_folder_titles">重命名文件</string>
+
+    <!--已翻译 -->
+
+
+    <string name="screen_lock_allow_scroll">允许滑动</string>
+    <string name="screen_lock_left">锁定左边</string>
+    <string name="screen_lock_center">锁定中间</string>
+    <string name="screen_lock_right">锁定右边</string>
+
+
+
+    <!--liuzuo add-->
+    <string name="folder_import_addicon">添加图标</string>
+    <string name="folder_importmode_button">添加到文件夹(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="safemode_wallpaper_error">安全模式下壁纸选择关闭</string>
+
+    <string name="desktop_is_locked">桌面已锁定</string>
+    <string name="title_google_folder">Google</string>
+    <string name="title_tools_folder">工具</string>
+
+
+
+    <string name="switch_on">开</string>
+    <string name="switch_off">关</string>
+
+    <string name="pref_title_quick_options">快捷设置</string>
+    <string name="pref_title_more_function">更多功能</string>
+
+    <string name="pref_title_desktop_loop">屏幕循环</string>
+    <string name="pref_desktop_loop_on">屏幕循环滑动</string>
+
+    <!-- Perry: Add live icon: start -->
+    <string name="pref_title_live_icon">动态图标</string>
+    <string name="pref_live_icon_on">日历和时钟图标动态变化</string>
+    <!-- Perry: Add live icon: end -->
+
+    <!-- Perry: Fixed screen function: start -->
+    <string name="pref_title_pref_screen_locked">固定屏幕</string>
+    <string name="pref_pref_screen_locked_on">固定屏幕后无法拖动图标</string>
+    <string name="pref_pref_screen_locked_off">固定屏幕后无法拖动图标</string>
+    <string name="msg_desktop_is_locked">桌面已被固定</string>
+    <!-- Perry: Fixed screen function: end -->
+
+    <string name="title_show_minus_one">显示负一屏</string>
+    <string name="pref_show_minus_one_summary">@string/msg_minus_one_on_left</string>
+    <string name="msg_minus_one_on_left">位于主屏幕左侧</string>
+
+    <string name="pref_title_desktop_mode">桌面模式</string>
+    <string name="pref_title_desktop_layout">桌面布局</string>
+
+    <string name="release_drop_target_label">释放</string>
+
+    <string name="all_apps_search_applications">应用</string>
+    <string name="all_apps_search_recent">最近记录</string>
+    <string name="fold_up">折叠</string>
+    <string name="expand">展开</string>
+
+    <!-- Perry: Implement sliding effect function: start -->
+    <string name="effect_classic">经典</string>
+    <string name="effect_turntable">转盘</string>
+    <string name="effect_layered">层叠</string>
+    <string name="effect_rotate">旋转</string>
+    <string name="effect_page_turn">翻页</string>
+    <string name="effect_card">卡片</string>
+    <string name="effect_compass">罗盘</string>
+    <string name="effect_cube">立方体</string>
+    <!-- Perry: Implement sliding effect function: end -->
+
+    <!-- Perry: Add clear all button to recents: start -->
+    <string name="memory_info_gb_fmt">"<xliff:g id="available">%.2f</xliff:g> GB 可用 | <xliff:g id="total">%.2f</xliff:g> GB"</string>
+    <string name="memory_info_mb_fmt">"<xliff:g id="available">%d</xliff:g> MB 可用 | <xliff:g id="total">%.2f</xliff:g> GB"</string>
+    <string name="release_msg_mb">"释放了%d MB内存"</string>
+    <string name="release_msg_kb">"释放了%d KB内存"</string>
+    <string name="release_msg_nothing">已经清理至最佳状态</string>
+    <!-- Perry: Add clear all button to recents: end -->
+    <!-- Perry: Implement Lock/Unlock task function: start -->
+    <string name="label_lock_task">锁定</string>
+    <string name="label_unlock_task">解锁</string>
+    <!-- Perry: Implement Lock/Unlock task function: end -->
+    <!-- Perry: Add search recents for all apps: start -->
+    <string name="all_apps_search_result_button_clear">清除</string>
+    <!-- Perry: Add search recents for all apps: end -->
+    <!-- Perry: adjust settings UI: start -->
+    <string name="pref_title_effect">滑动效果</string>
+    <string name="pref_more_settings">更多设置</string>
+    <!-- Perry: adjust settings UI: end -->
+    <!-- Perry: Modify the summary text of badge switch: start -->
+    <string name="summary_unopened">未开启</string>
+    <!-- Perry: Modify the summary text of badge switch: end -->
+
+    <string name="unread_notifier_title">未读角标</string>
+    <string name="unread_call">电话</string>
+    <string name="unread_sms">短信</string>
+    <string name="unread_email">Email</string>
+    <string name="unread_calendar">日历</string>
+
+    <string name="pref_title_app_frozen">应用冻结</string>
+    <string name="frozen_apps_title">冻结/恢复</string>
+    <string name="frozen_apps_hint">点击图标冻结或恢复应用</string>
+    <string name="not_supported_live_wallpaper">不支持动态壁纸</string>
+
+    <string name="wallpaper_allow_scrolling">允许滚动</string>
+    <string name="wallpaper_lock_left">左侧锁定</string>
+    <string name="wallpaper_centered_lock">中心锁定</string>
+    <string name="wallpaper_lock_right">右侧锁定</string>
+    <string name="msg_lose_permission">没有权限</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/wallpaper_item_margin"
+    android:layout_marginEnd="@dimen/wallpaper_item_margin">
+
+    <ImageView
+        android:id="@+id/wallpaper_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/image_pick"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="@string/pick_image"
+        android:textSize="12.67sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="5dp"
+        android:textColor="?attr/workspaceTextColor" />
+</FrameLayout>

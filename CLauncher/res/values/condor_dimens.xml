@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- liuzuo Add for foldericon. -->
+    <dimen name="folder_width_padding">5.33dp</dimen>
+    <dimen name="folder_height_padding">5.33dp</dimen>
+    <dimen name="folder_bg_size">55dp</dimen>
+    <dimen name="folder_corner_radius">10.5dp</dimen>
+    <dimen name="folder_offset_top">13.67dp</dimen>
+    <dimen name="folder_icon_ani_offset_x">1dp</dimen>
+    <dimen name="folder_icon_ani_offset_y">6.67dp</dimen>
+    <dimen name="folder_preview_IconItemPadding">1dp</dimen>
+    <dimen name="folder_import_button_container_marginBottom">14dp</dimen>
+    <dimen name="folder_import_button_height">47dp</dimen>
+    <dimen name="folder_import_button_width">180dp</dimen>
+    <dimen name="folder_import_button_textSize">16dp</dimen>
+
+    <!-- liuzuo Add for folder      -->
+    <dimen name="folder_content_container_padding_bottom">0dp</dimen>
+
+    <!-- liuzuo Add for widget      -->
+    <dimen name="widget_cell_radius">7dp</dimen>
+
+    <!-- liuzuo Add for wallpaper      -->
+    <dimen name="wallpaper_item_margin">4.3dp</dimen>
+    <!--Bruce : add for settings -->
+    <dimen name="setting_dialog_textsize">15sp</dimen>
+    <dimen name="setting_item_textsize">15sp</dimen>
+	<!--antino: Addd for icon normalize-->
+    <dimen name="icon_radius">13.33dp</dimen>
+    <dimen name="total_size">108dp</dimen>
+    <dimen name="total_rect_size">72dp</dimen>
+    <dimen name="total_cirle_size">66dp</dimen>
+    <!-- liuzuo Add for badge      -->
+    <dimen name="folder_preview_padding">0dp</dimen>
+
+    <!-- Perry: adjust settings UI: start -->
+    <dimen name="condor_settings_height">62dp</dimen>
+    <dimen name="condor_fast_settings_height">52dp</dimen>
+    <dimen name="condor_settings_title_size">15sp</dimen>
+    <dimen name="condor_settings_summary_size">15sp</dimen>
+    <dimen name="condor_settings_padding_left">25dp</dimen>
+    <dimen name="condor_settings_padding_right">17dp</dimen>
+    <dimen name="condor_settings_category_height">33dp</dimen>
+    <dimen name="condor_settings_icon_size">28dp</dimen>
+    <!-- Perry: adjust settings UI: end -->
+
+    <!--liuzuo: Folders Taps :start-->
+    <dimen name="folder_pager_margin_top">30dp</dimen>
+    <dimen name="folder_tab_margin_top">64dp</dimen>
+    <dimen name="folder_scroller_width">2dp</dimen>
+    <dimen name="folder_page_name_space">10dp</dimen>
+    <dimen name="folder_tab_height">40dp</dimen>
+    <dimen name="bg_celllayout_corner_radius">12dp</dimen>
+    <!--liuzuo: Folders Taps :end-->
+
+    <!-- add for icon badge-->
+    <dimen name="badge_text_size">12dp</dimen>
+</resources>

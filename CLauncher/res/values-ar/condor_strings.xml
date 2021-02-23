@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="switch_on">تشغيل</string>
+    <string name="switch_off">إيقاف</string>
+
+    <string name="pref_title_quick_options">الإعداد السريع</string>
+    <string name="pref_title_more_function">المزيد من الوظائف</string>
+
+    <string name="pref_title_desktop_loop">تدوير سطح المكتب</string>
+    <string name="pref_desktop_loop_on">تدوير سطح المكتب للانتقال</string>
+
+    <!-- Perry: Add live icon: start -->
+    <string name="pref_title_live_icon">الرموز الديناميكية</string>
+    <string name="pref_live_icon_on">التغييرات الديناميكية لأيقونات الساعة والتقويم</string>
+    <!-- Perry: Add live icon: end -->
+
+    <!-- Perry: Fixed screen function: start -->
+    <string name="pref_title_pref_screen_locked">الشاشة المثبتة</string>
+    <string name="pref_pref_screen_locked_on">الشاشة المثبتة، لايمكن سحب الأيقونة</string>
+    <string name="pref_pref_screen_locked_off">الشاشة المثبتة، لايمكن سحب الأيقونة</string>
+    <string name="msg_desktop_is_locked">تم قفل سطح المكتب</string>
+    <!-- Perry: Fixed screen function: end -->
+
+    <string name="title_show_minus_one">عرض ناقص واحد</string>
+    <string name="pref_show_minus_one_summary">@string/msg_minus_one_on_left</string>
+    <string name="msg_minus_one_on_left">يسار الشاشة الرئيسية</string>
+
+    <string name="pref_title_desktop_mode">وضع سطح المكتب</string>
+    <string name="pref_title_desktop_layout">تخطيط سطح المكتب</string>
+
+    <string name="release_drop_target_label">تحرير</string>
+
+    <string name="all_apps_search_applications">التطبيقات</string>
+    <string name="all_apps_search_recent">التطبيقات الحديثة</string>
+    <string name="fold_up">طيّ</string>
+    <string name="expand">توسيع</string>
+
+
+
+
+    <string name="about">حول</string>
+    <string name="title_app_suggestions">اقتراحات التطبيق</string>
+    <string name="summary_app_suggestions">إظهار اقتراحات التطبيق أعلى قائمة كل التطبيقات</string>
+
+
+    <!-- Hidden app -->
+    <string name="hide_app">إخفاء التطبيقات</string>
+    <string name="hide_app_sum">إخفاء التطبيقات من درج التطبيقات</string>
+    <string name="hidden_app">كل التطبيقات</string>
+    <string name="more">المزيد</string>
+
+    <!-- Swipe up indicator -->
+
+
+
+    <!-- Hide/Show search bars -->
+    <string name="top_search_bar_title">شريط البحث العلوي</string>
+    <string name="top_search_bar_summary">عرض البحث السفلي في الجهة العلوية لدرج التطبيق</string>
+
+
+    <string name="theme_config_read_error">خطأ في قراءة السمة</string>
+    <!--liuzuo: for theme: end -->
+    <!-- Perry: Implement sliding effect function: start -->
+    <string name="pref_title_effect">تأثير الانزلاق</string>
+    <string name="effect_classic">كلاسيكي</string>
+    <string name="effect_turntable">قرص دوار</string>
+    <string name="effect_layered">مصفوفات</string>
+    <string name="effect_rotate">دوران</string>
+    <string name="effect_page_turn">قلب الصفحة</string>
+    <string name="effect_compass">بوصلة</string>
+    <string name="effect_cube">مكعب</string>
+    <!-- Perry: Implement sliding effect function: end -->
+
+    <!-- Perry: Add clear all button to recents: start -->
+    <string name="memory_info_gb_fmt"><xliff:g id="total">%.2f</xliff:g> جيغابايت متاحة /"  <xliff:g id="available">%.2f</xliff:g>"جيغابايت</string>
+    <string name="memory_info_mb_fmt"><xliff:g id="total">%d</xliff:g> ميغابايت متاحة /"  <xliff:g id="available">%.2f</xliff:g>"جيغابايت</string>
+    <string name="release_msg_mb">تم محو %d ميغابايت</string>
+    <string name="release_msg_kb">"تم محو %d كيلوبايت</string>
+    <string name="release_msg_nothing">لاشي للمحو في ذاكرة التخزين المؤقت</string>
+    <!-- Perry: Add clear all button to recents: end -->
+
+    <!-- Perry: Implement Lock/Unlock task function: start -->
+    <string name="label_lock_task">قفل</string>
+    <string name="label_unlock_task">إلغاء القفل</string>
+    <!-- Perry: Implement Lock/Unlock task function: end -->
+    <!-- Perry: Add search recents for all apps: start -->
+    <string name="all_apps_search_result_button_clear">محو</string>
+    <!-- Perry: Add search recents for all apps: end -->
+
+    <!-- Perry: Modify the summary text of badge switch: start -->
+    <string name="summary_unopened">غير مفتوح</string>
+    <!-- Perry: Modify the summary text of badge switch: end -->
+
+    <string name="rename_folder_titles">إعادة تسمية المجلد</string>
+
+    <string name="pick_image">انتقاء صورة</string>
+    <string name="setwallpaper_failed">فشل تعيين خلفية</string>
+
+    <!--已翻译 -->
+
+    <string name="screen_lock_allow_scroll">السماح بالتمرير</string>
+    <string name="screen_lock_left">القفل على اليسار</string>
+    <string name="screen_lock_center">القفل في الوسط</string>
+    <string name="screen_lock_right">القفل على اليمين</string>
+
+
+
+    <!--liuzuo add-->
+    <string name="folder_import_addicon">إضافة تطبيقات</string>
+    <string name="folder_importmode_button">إضافة إلى ملف(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="safemode_wallpaper_error">WallpaperPicker غير مُفعل في الوضع الآمن</string>
+
+    <string name="effect_card">بطاقة</string>
+    <!-- Perry: adjust settings UI: start -->
+    <string name="pref_more_settings">المزيد من الإعدادات</string>
+    <!-- Perry: adjust settings UI: end -->
+    <string name="notice_dot_title">رمز الإشعار</string>
+    <string name="desktop_is_locked">سطح المكتب مُقفل</string>
+    <string name="title_google_folder">Google</string>
+    <string name="title_tools_folder">الأدوات</string>
+
+    <string name="unread_notifier_title">إشعارات غير مقروءة</string>
+    <string name="unread_call">الهاتف</string>
+    <string name="unread_sms">SMS</string>
+    <string name="unread_email">Email</string>
+    <string name="unread_calendar">Calendrier</string>
+
+    <string name="pref_title_app_frozen">تجميد التطبيق</string>
+    <string name="frozen_apps_title">تجميد/استعادة</string>
+    <string name="frozen_apps_hint">اضغط على الأيقونة لتجميد</string>
+    <string name="wallpaper_lock_title">تأمين الخلفية</string>
+    <string name="not_supported_live_wallpaper">الخلفية المتحركة غير مدعومة</string>
+
+    <string name="wallpaper_allow_scrolling">السماح بالتمرير</string>
+    <string name="wallpaper_lock_left">قفل اليسار</string>
+    <string name="wallpaper_centered_lock">قفل مركزي</string>
+    <string name="wallpaper_lock_right">الحق في قفل</string>
+    <string name="msg_lose_permission">طلب الاذن مرفوض</string>
+</resources>

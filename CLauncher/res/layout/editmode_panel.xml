@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.condor.launcher.editmode.EditModePanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    launcher:layout_ignoreInsets="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|bottom">
+    <!-- Perry: Optimizing transition animation for edit mode: start -->
+    <FrameLayout
+        android:id="@+id/editmode_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+        <include
+            android:id="@+id/editmode_normal_panel"
+            layout="@layout/editmode_normal_panel" />
+        <!--liuzuo:add for wallpaper:start-->
+        <!-- Perry: Optimizing wallpaper picker UI: start -->
+        <com.android.launcher3.wallpaperpicker.WallpaperPagedView
+            android:id="@+id/wallpaper_picker"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wallpaper_thumbnail_height"
+            android:layout_gravity="center"
+            launcher:pageIndicator="@id/editmode_page_indicator"
+            android:visibility="gone"/>
+        <!-- Perry: Optimizing wallpaper picker UI: end -->
+        <!--liuzuo:add for wallpaper:end-->
+        <com.condor.launcher.editmode.EditEffectPanel
+            android:id="@+id/editmode_effect_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            launcher:pageIndicator="@+id/editmode_page_indicator"
+            android:visibility="gone" />
+        <com.android.launcher3.pageindicators.PageIndicatorLine
+            android:id="@+id/editmode_page_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal|bottom"
+            launcher:lineHeight="2dp"
+            android:theme="@style/HomeScreenElementTheme" />
+    </FrameLayout>
+    <!-- Perry: Optimizing transition animation for edit mode: end -->
+</com.condor.launcher.editmode.EditModePanel>

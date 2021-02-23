@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto">
+
+
+
+    <!--<resolve-->
+        <!--launcher:container="-101"-->
+        <!--launcher:screen="3"-->
+        <!--launcher:x="3"-->
+        <!--launcher:y="0" >-->
+        <!--<favorite launcher:uri="#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end" />-->
+        <!--<favorite launcher:uri="#Intent;action=android.intent.action.CAMERA_BUTTON;end" />-->
+    <!--</resolve>-->
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_hotseat_allure_m3" />
+
+    <!--Google folder-->
+    <folder
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4"
+        launcher:title="@string/title_google_folder"
+        launcher:spanX="1"
+        launcher:spanY="1">
+
+        <!--Files Go-->
+        <favorite
+            launcher:packageName="com.google.android.apps.nbu.files"
+            launcher:className="com.google.android.apps.nbu.files.home.HomeActivity" />
+        <!--Google Go-->
+        <favorite
+            launcher:packageName="com.google.android.apps.searchlite"
+            launcher:className="com.google.android.apps.searchlite.ui.SearchActivity" />
+        <!--Gmail-->
+        <favorite
+            launcher:packageName="com.google.android.gm.lite"
+            launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+        <!--Maps Go-->
+        <favorite
+            launcher:packageName="com.google.android.apps.mapslite"
+            launcher:className="org.chromium.webapk.shell_apk.MainActivity" />
+        <!--智能助理-->
+        <favorite
+            launcher:packageName="com.google.android.apps.assistant"
+            launcher:className="com.google.android.apps.assistant.go.MainActivity" />
+    </folder>
+    <!--YouTube Go-->
+    <favorite
+        launcher:packageName="com.google.android.apps.youtube.mango"
+        launcher:className="com.google.android.apps.youtube.lite.frontend.activities.SplashActivity"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4" />
+
+    <!--相机-->
+    <favorite
+        launcher:packageName="com.android.camera2"
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4" />
+    <!--Play 商店-->
+    <favorite
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="4" />
+
+
+
+    <!--时钟-->
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <!--图库-->
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.android.gallery3d.app.GalleryActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+
+    <!--音乐-->
+    <favorite
+        launcher:packageName="com.android.music"
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0" />
+
+    <!--settings-->
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0" />
+
+
+
+    <!--FM-->
+    <favorite
+        launcher:packageName="com.android.fmradio"
+        launcher:className="com.android.fmradio.FmMainActivity"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1" />
+
+    <!--录音机-->
+    <favorite
+        launcher:packageName="com.android.soundrecorder"
+        launcher:className="com.sprd.soundrecorder.RecorderActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+
+    <!--计算器-->
+    <favorite
+        launcher:packageName="com.google.android.calculator"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" />
+
+    <!--日历-->
+    <favorite
+        launcher:packageName="com.google.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1" />
+
+</favorites>

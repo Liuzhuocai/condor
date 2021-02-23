@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2015-2017, Paranoid Android
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- liuzuo add for folder -->
+    <color name="workspace_bg_color">#B2000000</color>
+    <!-- liuzuo add for indicator -->
+    <color name="indicator_color_light">#B9FFFFFF</color>
+    <color name="indicator_color_dark">#B9000000</color>
+    <!--Bruce : add for settings -->
+    <color name="condor_settings_text_color">#333333</color>
+    <color name="condor_settings_dividing_line_bg">#F0F0F0</color>
+    <!-- liuzuo add for badge -->
+    <color name="badge_color_bg">#C2241C</color>
+    <color name="badge_color_text">#F1F2F2</color>
+    <!-- Perry: adjust settings UI: start -->
+    <color name="condor_settings_title_color">#333333</color>
+    <color name="condor_settings_summary_color">#999999</color>
+    <!-- Perry: adjust settings UI: end -->
+</resources>

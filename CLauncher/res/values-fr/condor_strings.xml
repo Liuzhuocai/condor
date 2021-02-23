@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="switch_on">Activé</string>
+    <string name="switch_off">Désactivé</string>
+
+    <string name="pref_title_quick_options">Param.rapide</string>
+    <string name="pref_title_more_function">Plus de fonctionnalités</string>
+
+    <string name="pref_title_desktop_loop">Boucle de bureau</string>
+    <string name="pref_desktop_loop_on">Boucle de bureau à faire défiler</string>
+
+    <!-- Perry: Add live icon: start -->
+    <string name="pref_title_live_icon">Icône dynamique</string>
+    <string name="pref_live_icon_on">Changements dynamiques de l\'horloge et du calendrier</string>
+    <!-- Perry: Add live icon: end -->
+
+    <!-- Perry: Fixed screen function: start -->
+    <string name="pref_title_pref_screen_locked">Écran fixe</string>
+    <string name="pref_pref_screen_locked_on">Écran fixe, impossible de déplacer l\'icône</string>
+    <string name="pref_pref_screen_locked_off">Écran fixe, impossible de déplacer l\'icône</string>
+    <string name="msg_desktop_is_locked">Le bureau est verrouillé</string>
+    <!-- Perry: Fixed screen function: end -->
+
+    <string name="title_show_minus_one">Afficher moins</string>
+    <string name="pref_show_minus_one_summary">@string/msg_minus_one_on_left</string>
+    <string name="msg_minus_one_on_left">À gauche de l\'écran principal</string>
+
+    <string name="pref_title_desktop_mode">Mode bureau</string>
+    <string name="pref_title_desktop_layout">Disposition du bureau</string>
+
+    <string name="release_drop_target_label">Libérer</string>
+
+    <string name="all_apps_search_applications">Applications</string>
+    <string name="all_apps_search_recent">Applications récentes</string>
+    <string name="fold_up">Plier</string>
+    <string name="expand">développer</string>
+
+
+
+
+    <string name="about">À propos</string>
+    <string name="title_app_suggestions">Suggestions appli</string>
+    <string name="summary_app_suggestions">Afficher les suggestions appli en haut de votre liste d\'applis</string>
+
+
+    <!-- Hidden app -->
+    <string name="hide_app">Masquer applis</string>
+    <string name="hide_app_sum">Masquer les applis du tiroir d\'applis</string>
+    <string name="hidden_app">Toutes les applis</string>
+    <string name="more">Plus</string>
+
+    <!-- Swipe up indicator -->
+
+
+
+    <!-- Hide/Show search bars -->
+    <string name="top_search_bar_title">Barre de recherche supérieure</string>
+    <string name="top_search_bar_summary">Afficher la barre de recherche inférieure en haut de votre tiroir d\'applis</string>
+
+
+    <string name="theme_config_read_error">Erreur de lecture du thème</string>
+    <!--liuzuo: for theme: end -->
+    <!-- Perry: Implement sliding effect function: start -->
+    <string name="pref_title_effect">Effet coulissant</string>
+    <string name="effect_classic">Classique</string>
+    <string name="effect_turntable">Tourne-disque</string>
+    <string name="effect_layered">Superposé</string>
+    <string name="effect_rotate">Rotation</string>
+    <string name="effect_page_turn">Page tournée</string>
+    <string name="effect_compass">Compas</string>
+    <string name="effect_cube">Cube</string>
+    <!-- Perry: Implement sliding effect function: end -->
+
+    <!-- Perry: Add clear all button to recents: start -->
+    <string name="memory_info_gb_fmt">"<xliff:g id="available">%.2f</xliff:g> Go disponilbe(s) | <xliff:g id="total">%.2f</xliff:g> Go"</string>
+    <string name="memory_info_mb_fmt">"<xliff:g id="available">%d</xliff:g> Mo disponible(s) | <xliff:g id="total">%.2f</xliff:g> Go"</string>
+    <string name="release_msg_mb">%d MB effacé(s)</string>
+    <string name="release_msg_kb">"%d KB effacé(s)</string>
+    <string name="release_msg_nothing">Rien à effacer dans le cache</string>
+    <!-- Perry: Add clear all button to recents: end -->
+
+    <!-- Perry: Implement Lock/Unlock task function: start -->
+    <string name="label_lock_task">Verrouiller</string>
+    <string name="label_unlock_task">Déverrouiller</string>
+    <!-- Perry: Implement Lock/Unlock task function: end -->
+    <!-- Perry: Add search recents for all apps: start -->
+    <string name="all_apps_search_result_button_clear">Effacer</string>
+    <!-- Perry: Add search recents for all apps: end -->
+
+    <!-- Perry: Modify the summary text of badge switch: start -->
+    <string name="summary_unopened">Non ouvert</string>
+    <!-- Perry: Modify the summary text of badge switch: end -->
+
+    <string name="rename_folder_titles">Renommer dossier</string>
+
+    <string name="pick_image">Sélectionner une image</string>
+    <string name="setwallpaper_failed">Définition fond d\'écran échouée</string>
+
+    <!--已翻译 -->
+
+    <string name="screen_lock_allow_scroll">Permettre le défilement</string>
+    <string name="screen_lock_left">Verrouillage à gauche</string>
+    <string name="screen_lock_center">Verrouillage centre</string>
+    <string name="screen_lock_right">Verrouillage à droite</string>
+
+
+
+    <!--liuzuo add-->
+    <string name="folder_import_addicon">Ajouter des applications</string>
+    <string name="folder_importmode_button">Ajouter au dossier(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="safemode_wallpaper_error">WallpaperPicker désactivé en mode sans échec</string>
+
+    <string name="effect_card">Carte</string>
+    <!-- Perry: adjust settings UI: start -->
+    <string name="pref_more_settings">Plus de paramètres</string>
+    <!-- Perry: adjust settings UI: end -->
+    <string name="notice_dot_title">Symbole notification</string>
+    <string name="desktop_is_locked">Le bureau est verrouillé</string>
+    <string name="title_google_folder">Google</string>
+    <string name="title_tools_folder">Outils</string>
+
+    <string name="unread_notifier_title">Badge non lu</string>
+    <string name="unread_call">Téléphone</string>
+    <string name="unread_sms">SMS</string>
+    <string name="unread_email">Email</string>
+    <string name="unread_calendar">Calendrier</string>
+
+    <string name="pref_title_app_frozen">Geler l\'appli </string>
+    <string name="frozen_apps_title">Geler/Restaurer</string>
+    <string name="frozen_apps_hint">Cliquez sur l\'icone pour geler ou restaurer l\'appli</string>
+    <string name="wallpaper_lock_title">Verrouillage fond d\'écran </string>
+    <string name="not_supported_live_wallpaper" >Fond d\'écran animé non pris en charge</string>
+
+    <string name="wallpaper_allow_scrolling">Autoriser le défilement</string>
+    <string name="wallpaper_lock_left">Verrouillage gauche</string>
+    <string name="wallpaper_centered_lock">Verrouillage centré</string>
+    <string name="wallpaper_lock_right">Verrouillage droit</string>
+    <string name="msg_lose_permission">Permission refusée</string>
+</resources>

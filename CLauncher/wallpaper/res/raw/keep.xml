@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="
+    @drawable/wallpaper_01,
+    @drawable/wallpaper_01_small,
+    @drawable/wallpaper_02,
+    @drawable/wallpaper_02_small,
+    @drawable/wallpaper_03,
+    @drawable/wallpaper_03_small,
+    @drawable/wallpaper_04,
+    @drawable/wallpaper_04_small,
+    @drawable/wallpaper_05,
+    @drawable/wallpaper_05_small,
+    @drawable/wallpaper_06,
+    @drawable/wallpaper_06_small,
+    @drawable/wallpaper_07,
+    @drawable/wallpaper_07_small,
+    @drawable/wallpaper_08,
+    @drawable/wallpaper_08_small,
+    @drawable/wallpaper_09,
+    @drawable/wallpaper_09_small,
+    @drawable/wallpaper_10,
+    @drawable/wallpaper_10_small" />

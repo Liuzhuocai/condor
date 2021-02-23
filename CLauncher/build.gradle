@@ -1,0 +1,357 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.6'
+    }
+
+    ext.gson_version = '2.8.0'
+    ext.last_commit_id = '131a25842b80ea722dbcb6a89c83333eeb499be7'
+}
+
+final String SUPPORT_LIBS_VERSION = '28.0.0'
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.protobuf'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 2128148
+        versionName "2.128148"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        addManifestPlaceholders([APP_NAME: "@string/derived_app_name"])
+    }
+
+    final String SignPlatform = "GooglePlatform"
+
+    signingConfigs {
+        release {
+            if(isInJenkins()){
+                storeFile file("/home/condor/tools/signKey/GooglePlatform.jks")
+            }else{
+                storeFile file("sign/${SignPlatform}.jks")
+            }
+            storePassword '123456'
+            keyAlias SignPlatform
+            keyPassword '123456'
+        }
+
+        debug {
+            storeFile file("sign/${SignPlatform}.jks")
+            storePassword '123456'
+            keyAlias SignPlatform
+            keyPassword '123456'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig  signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            //shrinkResources true
+            signingConfig  signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.flags'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        aosp {
+            dimension "default"
+            applicationId 'com.android.launcher3'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        l3go {
+            dimension "default"
+            applicationId 'com.android.launcher3'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        quickstep {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.android.launcher3'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        condor {
+            dimension "default"
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        condorGo {
+            dimension "default"
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        condorQuickstep {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        condorQuickstepGo {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+        cristorGo {
+            dimension "default"
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+            addManifestPlaceholders([APP_NAME: "@string/app_name_cristor"])
+        }
+
+        cristorQuickstep {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+            addManifestPlaceholders([APP_NAME: "@string/app_name_cristor"])
+        }
+        ace {
+            dimension "default"
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        aceGo {
+            dimension "default"
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        aceQuickstep {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+
+        aceQuickstepGo {
+            dimension "default"
+            minSdkVersion 28
+            applicationId 'com.elves.launcher'
+            testApplicationId 'com.android.launcher3.tests'
+        }
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ['res','theme/res','wallpaper/res']
+            java.srcDirs = ['src','wallpaper/src']
+            manifest.srcFile 'AndroidManifest-common.xml'
+            proto {
+                srcDir 'protos/'
+                srcDir 'proto_overrides/'
+            }
+            assets.srcDirs = ['assets']
+        }
+
+        debug {
+            manifest.srcFile "AndroidManifest.xml"
+        }
+
+        release {
+            manifest.srcFile "AndroidManifest.xml"
+        }
+
+        androidTest {
+            res.srcDirs = ['tests/res']
+            java.srcDirs = ['tests/src']
+            manifest.srcFile "tests/AndroidManifest-common.xml"
+        }
+
+        androidTestDebug {
+            manifest.srcFile "tests/AndroidManifest.xml"
+        }
+
+        aosp {
+            res.srcDirs = ['google/res']
+            java.srcDirs = ['src_flags', "src_ui_overrides", "google/src_flags",'src_folder_overrides']
+        }
+
+        l3go {
+            res.srcDirs = ['google/res', 'go/res']
+            java.srcDirs = ['go/src_flags', "src_ui_overrides", "google/src_flags",'src_folder_overrides']
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        quickstep {
+            res.srcDirs = ['quickstep/res', 'google/res']
+            java.srcDirs = ['src_flags', 'quickstep/src', "google/src_flags",'src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+        }
+
+        condor {
+            res.srcDirs = ['condor/res']
+            java.srcDirs = ['src_flags', "src_ui_overrides", "condor/src_flags",'src_folder_overrides']
+        }
+
+        condorGo {
+            res.srcDirs = ['condor/res', 'go/res']
+            java.srcDirs = ['go/src_flags', "src_ui_overrides", "condor/src_flags",'src_folder_overrides']
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        condorQuickstep {
+            res.srcDirs = ['quickstep/res', 'condor/res']
+            java.srcDirs = ['src_flags', 'quickstep/src', 'condor/src_flags','src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+        }
+
+        condorQuickstepGo {
+            res.srcDirs = ['quickstep/res', 'condor/res', 'go/res']
+            java.srcDirs = ['quickstep/src', 'condor/src_flags', 'go/src_flags','src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        ace {
+            res.srcDirs = ['ace/res']
+            java.srcDirs = ['src_flags', "src_ui_overrides", "ace/src_flags",'ace/src_folder_overrides']
+        }
+
+        aceGo {
+            res.srcDirs = ['ace/res', 'go/res']
+            java.srcDirs = ['go/src_flags', "src_ui_overrides", "ace/src_flags",'ace/src_folder_overrides']
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        aceQuickstep {
+            res.srcDirs = ['quickstep/res', 'ace/res']
+            java.srcDirs = ['src_flags', 'quickstep/src', 'ace/src_flags','ace/src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+        }
+
+        aceQuickstepGo {
+            res.srcDirs = ['quickstep/res', 'ace/res', 'go/res']
+            java.srcDirs = ['quickstep/src', 'ace/src_flags', 'go/src_flags','ace/src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        cristorGo {
+            res.srcDirs = ['condor/res', 'go/res','cristor/res']
+            java.srcDirs = ['go/src_flags', "src_ui_overrides", "condor/src_flags",'src_folder_overrides']
+            manifest.srcFile "go/AndroidManifest.xml"
+        }
+
+        cristorQuickstep {
+            res.srcDirs = ['quickstep/res', 'condor/res','cristor/res']
+            java.srcDirs = ['src_flags', 'quickstep/src', 'condor/src_flags','src_folder_overrides']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+        }
+    }
+}
+
+repositories {
+    maven { url "../../../prebuilts/fullsdk-darwin/extras/android/m2repository" }
+    maven { url "../../../prebuilts/fullsdk-linux/extras/android/m2repository" }
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.dynamicanimation:dynamicanimation:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha02'
+    implementation 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-7'
+    implementation "com.google.code.gson:gson:$gson_version"
+
+    quickstepImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+    condorQuickstepImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+    aceQuickstepImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+    condorQuickstepGoImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+    aceQuickstepGoImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+    cristorQuickstepImplementation fileTree(dir: "quickstep/libs", include: 'sysui_shared.jar')
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation "org.mockito:mockito-core:1.9.5"
+    androidTestImplementation 'com.google.dexmaker:dexmaker:1.2'
+    androidTestImplementation 'com.google.dexmaker:dexmaker-mockito:1.2'
+    androidTestImplementation 'androidx.test:runner:1.1.2-alpha02'
+    androidTestImplementation 'androidx.test:rules:1.1.2-alpha02'
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+    androidTestImplementation 'androidx.annotation:annotation:1.1.0-alpha02'
+    implementation 'xstream:xstream:1.2.2'
+}
+
+protobuf {
+    // Configure the protoc executable
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.0.0-alpha-3'
+
+        generateProtoTasks {
+            all().each { task ->
+                task.builtins {
+                    remove java
+                    javanano {
+                        option "java_package=launcher_log_extension.proto|com.android.launcher3.userevent.nano"
+                        option "java_package=launcher_log.proto|com.android.launcher3.userevent.nano"
+                        option "java_package=launcher_dump.proto|com.android.launcher3.model.nano"
+                        option "enum_style=java"
+                    }
+                }
+            }
+        }
+    }
+}
+boolean isInJenkins() {
+    Map<String, String> map =  System.getenv()
+
+    if(map == null) {
+        return false
+    }
+    String str = map.get("Path")
+    if(str != null) {
+        //it's windows
+        return false
+    }
+    else{
+        str = ""
+        Iterator it = map.iterator();
+        while(it.hasNext()) {
+            str += it.next();
+        }
+        if(str.contains("jenkins")){
+            return true
+        }else{
+            return false
+        }
+    }
+    return false
+}

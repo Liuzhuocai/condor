@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.FolderPagesContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <com.android.launcher3.folder.FolderTabStrip
+        android:id="@+id/folder_view_pager_label"
+        android:layout_marginTop="@dimen/folder_tab_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/folder_tab_height"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        >
+
+    </com.android.launcher3.folder.FolderTabStrip>
+
+    <com.android.launcher3.folder.FolderViewPager
+        android:id="@+id/folder_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/folder_pager_margin_top"
+        android:layout_marginStart="@dimen/dynamic_grid_edge_margin"
+        android:layout_marginEnd="@dimen/dynamic_grid_edge_margin"
+        android:persistentDrawingCache="animation"
+        android:background="@android:color/transparent">
+
+    </com.android.launcher3.folder.FolderViewPager>
+
+</com.android.launcher3.folder.FolderPagesContainer>

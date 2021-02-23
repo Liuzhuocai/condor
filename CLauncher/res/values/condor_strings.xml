@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+
+    <string name="pref_title_quick_options">Quick setup</string>
+    <string name="pref_title_more_function">More function</string>
+
+    <string name="pref_title_desktop_loop">Desktop loop</string>
+    <string name="pref_desktop_loop_on">Desktop loop to scroll</string>
+
+    <!-- Perry: Add live icon: start -->
+    <string name="pref_title_live_icon">Dynamic icon</string>
+    <string name="pref_live_icon_on">Dynamic changes of Clock and Calendar icons</string>
+    <!-- Perry: Add live icon: end -->
+
+    <!-- Perry: Fixed screen function: start -->
+    <string name="pref_title_pref_screen_locked">Fixed screen</string>
+    <string name="pref_pref_screen_locked_on">Fixed screen, unable to drag icon</string>
+    <string name="pref_pref_screen_locked_off">Fixed screen, unable to drag icon</string>
+    <string name="msg_desktop_is_locked">The desktop is locked</string>
+    <!-- Perry: Fixed screen function: end -->
+
+    <string name="title_show_minus_one">Display minus one</string>
+    <string name="pref_show_minus_one_summary">@string/msg_minus_one_on_left</string>
+    <string name="msg_minus_one_on_left">To the left of the main Home screen</string>
+
+    <string name="pref_title_desktop_mode">Desktop mode</string>
+    <string name="pref_title_desktop_layout">Desktop Layout</string>
+
+    <string name="release_drop_target_label">Release</string>
+
+    <string name="all_apps_search_applications">Applications</string>
+    <string name="all_apps_search_recent">Recent</string>
+    <string name="fold_up">Fold up</string>
+    <string name="expand">Expand</string>
+
+
+
+
+    <string name="about">About</string>
+    <string name="title_app_suggestions">App suggestions</string>
+    <string name="summary_app_suggestions">Show app suggestions at the top of your All Apps list</string>
+
+
+    <!-- Hidden app -->
+    <string name="hide_app">Hide apps</string>
+    <string name="hide_app_sum">Hide apps from the app drawer</string>
+    <string name="hidden_app">All apps</string>
+    <string name="more">More</string>
+
+    <!-- Swipe up indicator -->
+
+
+
+    <!-- Hide/Show search bars -->
+    <string name="top_search_bar_title">Top search bar</string>
+    <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
+
+
+    <string name="theme_config_read_error">theme read error</string>
+    <!--liuzuo: for theme: end -->
+    <!-- Perry: Implement sliding effect function: start -->
+    <string name="pref_title_effect">Sliding effect</string>
+    <string name="effect_classic">Classic</string>
+    <string name="effect_turntable">Turntable</string>
+    <string name="effect_layered">Layered</string>
+    <string name="effect_rotate">Rotate</string>
+    <string name="effect_page_turn">Page turn</string>
+    <string name="effect_compass">Compass</string>
+    <string name="effect_cube">Cube</string>
+    <!-- Perry: Implement sliding effect function: end -->
+
+    <!-- Perry: Add clear all button to recents: start -->
+    <string name="memory_info_gb_fmt">"<xliff:g id="available">%.2f</xliff:g> GB available | <xliff:g id="total">%.2f</xliff:g> GB"</string>
+    <string name="memory_info_mb_fmt">"<xliff:g id="available">%d</xliff:g> MB available | <xliff:g id="total">%.2f</xliff:g> GB"</string>
+    <string name="release_msg_mb">"%d MB cleared"</string>
+    <string name="release_msg_kb">"%d KB cleared"</string>
+    <string name="release_msg_nothing">Nothing to clear in cache</string>
+    <!-- Perry: Add clear all button to recents: end -->
+
+    <!-- Perry: Implement Lock/Unlock task function: start -->
+    <string name="label_lock_task">Lock</string>
+    <string name="label_unlock_task">Unlock</string>
+    <!-- Perry: Implement Lock/Unlock task function: end -->
+    <!-- Perry: Add search recents for all apps: start -->
+    <string name="all_apps_search_result_button_clear">Clear</string>
+    <!-- Perry: Add search recents for all apps: end -->
+
+    <!-- Perry: Modify the summary text of badge switch: start -->
+    <string name="summary_unopened">Unopened</string>
+    <!-- Perry: Modify the summary text of badge switch: end -->
+
+    <string name="rename_folder_titles">Rename folder</string>
+
+    <string name="pick_image">Pick Image</string>
+    <string name="setwallpaper_failed">set wallpaper failed</string>
+
+    <!--已翻译 -->
+    <string name="num_four_and_four">4x4</string>
+    <string name="num_four_and_five">4x5</string>
+    <string name="num_five_and_four">5x4</string>
+    <string name="num_five_and_five">5x5</string>
+
+    <string name="screen_lock_allow_scroll">Allow scrolling</string>
+    <string name="screen_lock_left">Lock left</string>
+    <string name="screen_lock_center">Centered lock</string>
+    <string name="screen_lock_right">Lock right</string>
+
+
+
+    <!--liuzuo add-->
+    <string name="folder_import_addicon">Add Apps</string>
+    <string name="folder_importmode_button">Add to the folder(<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="safemode_wallpaper_error">WallpaperPicker disabled in Safe mode</string>
+
+    <string name="effect_card">Card</string>
+    <!-- Perry: adjust settings UI: start -->
+    <string name="pref_more_settings">More settings</string>
+    <!-- Perry: adjust settings UI: end -->
+    <string name="notice_dot_title">Notice symbol</string>
+    <string name="desktop_is_locked">The desktop is locked</string>
+    <string name="title_google_folder">Google</string>
+    <string name="title_tools_folder">Tools</string>
+
+    <string name="unread_notifier_title">Unread badge</string>
+    <string name="unread_call">Phone</string>
+    <string name="unread_sms">SMS</string>
+    <string name="unread_email">Email</string>
+    <string name="unread_calendar">Calendar</string>
+
+    <!--Add for unread function: Email list -->
+    <string-array name="support_email_component_array" translatable="false">
+        <item>com.android.email/.activity.Welcome</item>
+    </string-array>
+    <!--Add for unread function: Calendar list -->
+    <string-array name="support_calendar_component_array" translatable="false">
+        <item>com.android.calendar/.AllInOneActivity</item>
+    </string-array>
+
+    <string name="pref_title_app_frozen">App frozen</string>
+    <string name="frozen_apps_title">Frozen/Restore</string>
+    <string name="frozen_apps_hint">Click icon to frozen or restore app</string>
+    <string name="wallpaper_lock_title">Wallpaper lock</string>
+    <string name="not_supported_live_wallpaper">Live wallpaper is not supported.</string>
+
+    <string name="wallpaper_allow_scrolling">Allow scrolling</string>
+    <string name="wallpaper_lock_left">Lock left</string>
+    <string name="wallpaper_centered_lock">Centered lock</string>
+    <string name="wallpaper_lock_right">Lock right</string>
+    <string name="msg_lose_permission">Permission denied</string>
+</resources>

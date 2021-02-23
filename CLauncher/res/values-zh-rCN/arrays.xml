@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_desktop_mode_names">
+        <item>经典单层桌面，所有应用平铺在桌面上。</item>
+        <item>经典双层桌面，所有应用顺序排列在主菜单中。</item>
+    </string-array>
+</resources>

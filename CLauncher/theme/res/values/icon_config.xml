@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--主题名字-->
+	<string name="theme_name">Condor Theme</string>
+	<string name="theme_version">v1.1</string>
+	<string name="author">Antino</string>
+	<!--三方没有重绘的图标在底板中的显示位置-->
+	<dimen name="ptop">0dp</dimen>
+	<dimen name="pleft">0dp</dimen>
+	<dimen name="pright">0dp</dimen>
+	<dimen name="pbottom">0dp</dimen>
+	<string-array name="icon_array">
+		<!--360 security-->
+		<item>com.qihoo.security|com.qihoo.security_com.qihoo.security.AppEnterActivity#ic_360</item>
+
+		<!--App Guide-->
+		<item>com.appguide.app|com.appguide.app_com.appguide.app.MainActivity#condor_app_guide</item>
+
+		<!--Browser-->
+		<item>com.android.browser|com.android.browser_com.android.browser.BrowserActivity#ic_brower</item>
+
+		<!--Calculator-->
+		<item>com.google.android.calculator|com.google.android.calculator_com.android.calculator2.Calculator#ic_calculator</item>
+		<item>com.android.calculator2|com.android.calculator2_com.android.calculator2.Calculator#ic_calculator</item>
+		<item>com.elves.calculator|com.elves.calculator_com.elves.calculator.Calculator#ic_calculator</item>
+
+		<!--Camera-->
+		<item>com.android.camera|com.android.camera_com.android.camera.CameraLauncher#ic_camera</item>
+		<item>com.android.camera2|com.android.camera2_com.android.camera.CameraLauncher#ic_camera</item>
+		<item>org.codeaurora.snapcam|org.codeaurora.snapcam_com.android.camera.CameraLauncher#ic_camera</item>
+
+		<!--Chameleon-->
+		<item>com.amigo.chameleon|com.amigo.chameleon_com.amigo.chameleon.ChameleonActivity#ic_chameleon</item>
+
+		<!--Clock-->
+		<item>com.android.deskclock|com.android.deskclock_com.android.deskclock.DeskClock#ic_clock</item>
+		<item>com.android.deskclock|com.android.deskclock_com.android.deskclock.AlarmClock#ic_clock</item>
+		<item>com.qiku.android.xtime|com.qiku.android.xtime_qiku.xtime.ui.main.XTimeActivity#ic_clock</item>
+		<item>com.google.android.deskclock|com.google.android.deskclock_com.android.deskclock.DeskClock#ic_clock</item>
+
+		<!--Compass-->
+		<item>com.cydroid.compass|com.cydroid.compass_com.cydroid.compass.JLZN_CompassActivity#ic_compass</item>
+		<item>com.huaqin.hqcompass|com.huaqin.hqcompass_com.huaqin.hqcompass.CompassMainActivity#ic_compass</item>
+		<item>jlzn.com.android.compass|jlzn.com.android.compass_jlzn.com.android.compass.JLZN_CompassActivity#ic_compass</item>
+
+		<!--Condor Mawakit-->
+		<item>com.condor.mawakit|com.condor.mawakit_com.condor.mawakit.Mawakit#condor_mawakit</item>
+
+		<!--Condor ECU-->
+		<item>dz.condor.emergency|dz.condor.emergency_dz.condor.emergency.SplashActivity#condor_ecu</item>
+
+		<!--Condor SAV-->
+		<item>dz.condor.sav|dz.condor.sav_dz.condor.sav.activities.MainActivity#condor_sav</item>
+
+		<!--Condor Store-->
+		<item>com.condor.store|com.condor.store_com.gigamarket.sociomall.vipmk.ui.activities.HomeActivity#condor_store</item>
+
+		<!--Condor Cat-->
+		<item>com.ak.ta.condorcatalogapp|com.ak.ta.condorcatalogapp_com.ak.ta.condorcatalogapp.activity.SplashActivity#condor_cat</item>
+
+		<!--Condor Social Card-->
+		<item>dz.condor.socialcard|dz.condor.socialcard_com.condorpassport.activity.Splash#condor_social_card</item>
+
+		<!--Condor Child Model-->
+		<item>com.childmode|com.childmode_com.childmode.activity.SplashActivity#condor_child_mode</item>
+
+		<!--Condor Passport-->
+		<item>dz.condor.Condorpassport|dz.condor.Condorpassport_com.condorpassport.activity.Splash#condor_passport</item>
+
+
+		<!--Condor Theme Park-->
+		<item>dz.condor.ThemeParc|dz.condor.ThemeParc_com.condor.condortheme.ui.SplashActivity#condor_theme_park</item>
+		<item>com.condor.condortheme|com.condor.condortheme_com.condor.condortheme.ui.SplashActivity#condor_theme_park</item>
+
+		<!--Contacts-->
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.PeopleActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsCallsEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsRecentCallEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsCallListEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsRecentEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.ContactHostActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.ContactsListActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.ContactsActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsPhoneEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.sec.android.app.contacts.RecntcallEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsRecentCallsEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.ContactTabBrowserActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.ContactsFrontDoor#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsCallLogEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.sec.android.app.contacts.PhoneBookTopMenuActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.sec.android.app.contacts.ContactsEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.sec.android.app.contacts.DialerEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.TwelveKeyDialer#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsContactsEntryActivity#ic_contact</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.PeopleActivity#ic_contact</item>
+		<item>com.qiku.android.contacts|com.qiku.android.contacts_com.qiku.android.contacts.ui.main.contactmainactivity#ic_contact</item>
+
+		<!--Data Clone-->
+		<item>com.cydroid.dataclone|com.cydroid.dataclone_com.cydroid.dataclone.ui.nat.NatEntranceActivity#ic_dataclone</item>
+
+		<!--Dialer-->
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialerActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.PhoneContactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.PCUDialtactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.DialtactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.oppo.contacts.OppoDialtactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.RecentCallsLauncherActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.CallDialtactsActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsRecentCallsListActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.CallLogActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.activities.CallLogActivity#ic_phone</item>
+		<item>com.android.contacts|com.android.contacts_com.android.contacts.DialtactsCallLogActivity#ic_phone</item>
+		<item>com.android.dialer|com.android.dialer_com.android.dialer.app.DialtactsActivity#ic_phone</item>
+		<item>com.android.dialer|com.android.dialer_com.android.dialer.DialtactsActivity#ic_phone</item>
+		<item>com.qiku.android.contacts|com.qiku.android.contacts_com.qiku.android.contacts.dial.dialactivity#ic_phone</item>
+
+		<!--Download-->
+		<item>com.android.documentsui|com.android.documentsui_com.android.documentsui.LauncherActivity#ic_download</item>
+		<item>com.android.providers.downloads|com.android.providers.downloads_com.android.providers.downloads.DownloadList#ic_download</item>
+		<item>com.android.providers.downloads.ui|com.android.providers.downloads.ui_com.android.providers.downloads.ui.GnDownloadTabActivity#ic_download</item>
+		<item>com.android.providers.downloads.ui|com.android.providers.downloads.ui_com.android.providers.downloads.ui.DownloadList#ic_download</item>
+
+		<!--Email-->
+		<item>com.android.email|com.android.email_com.android.email.activity.Welcomey#ic_email</item>
+
+
+		<!--File manager-->
+		<item>com.cydroid.filemanager|com.cydroid.filemanager_com.cydroid.filemanager.FileExplorerTabActivity#ic_file</item>
+		<item>com.qiku.android.filebrowser|com.qiku.android.filebrowser_com.qiku.android.filebrowser.activity.LeadingActivity#ic_file</item>
+		<item>com.cyanogenmod.filemanager|com.cyanogenmod.filemanager_com.cyanogenmod.filemanager.activities.NavigationActivity#ic_file</item>
+		<item>com.sprd.fileexplorer|com.sprd.fileexplorer_com.sprd.fileexplorer.activities.FileExploreActivity#ic_file</item>
+		<item>com.gionee.filemanager|com.gionee.filemanager_com.gionee.filemanager.FileExplorerTabActivity#ic_file</item>
+
+		<!--Flashlight-->
+		<item>com.cydroid.flashlight|com.cydroid.flashlight_com.cydroid.flashlight.FlashLightActivity#ic_troch</item>
+		<item>com.huaqin|com.huaqin_com.huaqin.FlashlightActivity#ic_troch</item>
+		<item>com.gionee.flashlight|com.gionee.flashlight_com.gionee.flashlight.FlashLightActivity#ic_torch</item>
+		<item>com.elves.flashlight|com.elves.flashlight_com.elves.flashlight.FlashLightActivity#ic_torch</item>
+		<item>com.cydroid.flashlight|com.cydroid.flashlight_com.cydroid.flashlight.FlashLightActivity#ic_torch</item>
+
+		<!--FM radio-->
+		<item>com.caf.fmradio|com.caf.fmradio_com.caf.fmradio.FMRadio#ic_fm_radio</item>
+		<item>com.mediatek.FMRadio|com.mediatek.FMRadio_com.mediatek.fmradio.FmRadioActivity#ic_fm_radio</item>
+		<item>com.android.fmradio|com.android.fmradio_com.android.fmradio.FmMainActivity#ic_fm_radio</item>
+
+		<!--Gallery-->
+		<item>com.cydroid.gallery|com.cydroid.gallery_com.cydroid.gallery.sb.app.GnGallery#ic_gallery</item>
+		<item>org.codeaurora.gallery|org.codeaurora.gallery_com.android.gallery3d.app.GalleryActivity#ic_gallery</item>
+		<item>com.android.gallery3d|com.android.gallery3d_com.android.gallery3d.app.GalleryActivity#ic_gallery</item>
+		<item>com.gionee.gallery|com.gionee.gallery_com.gionee.gallery.sb.app.GnGallery#ic_gallery</item>
+
+		<!--Messager-->
+		<item>com.android.mms|com.android.mms_com.android.mms.ui.ConversationList#ic_messages</item>
+		<item>com.android.mms|com.android.mms_com.android.mms.ui.BootActivity#ic_messages</item>
+		<item>com.android.messaging|com.android.messaging_com.android.messaging.ui.conversationlist.ConversationListActivity#ic_messages</item>
+
+		<!--Music-->
+		<item>com.android.music|com.android.music_com.android.music.MusicScanResultActivity#ic_music</item>
+		<item>com.android.music|com.android.music_com.android.music.MusicBrowserActivity#ic_music</item>
+		<item>com.qiku.music|com.qiku.music_com.qiku.music.main.activity.MainActivity#ic_music</item>
+
+		<!--Notebook-->
+		<item>com.cydroid.note|com.cydroid.note_com.cydroid.note.HomeActivity#ic_notes</item>
+		<item>com.qiku.android.memo|com.qiku.android.memo_com.qiku.android.coolmemo.ui.CoolMemoActivity#ic_notes</item>
+		<item>com.huaqin.note|com.huaqin.note_com.huaqin.note.NoteActivity#ic_notes</item>
+		<item>com.sprd.note|com.sprd.note_com.sprd.note.NoteActivity#ic_notes</item>
+		<item>com.gionee.note|com.gionee.note_com.gionee.note.HomeActivity#ic_notes</item>
+
+		<!--Office Suite-->
+		<item>com.mobisystems.office|com.mobisystems.office_com.mobisystems.office.splashScreen.SplashScreenActivity#ic_office</item>
+
+
+		<!--Settings-->
+		<item>com.android.settings|com.android.settings_com.android.settings.Settings#ic_setting</item>
+		<item>com.android.settings|com.android.settings_com.android.settings.GnSettingsTabActivity#ic_setting</item>
+
+		<!--SIM Tool kit-->
+		<item>com.android.stk|com.android.stk_com.android.stk.StkMain#ic_sim</item>
+		<item>com.android.stk|com.android.stk_com.android.stk.StkLauncherActivity#ic_sim</item>
+
+		<!--Sound Recorder-->
+		<item>com.android.soundrecorder|com.android.soundrecorder_com.android.soundrecorder.SoundRecorder#ic_sound_recorder</item>
+		<item>com.android.soundrecorder|com.android.soundrecorder_com.sprd.soundrecorder.RecorderActivity#ic_sound_recorder</item>
+		<item>com.qiku.android.soundrecorder|com.qiku.android.soundrecorder_com.qiku.android.soundrecorder.QH_SoundRecorder#ic_sound_recorder</item>
+
+		<!--System Manager-->
+		<item>com.cydroid.softmanager|com.cydroid.softmanager_com.cydroid.softmanager.MainActivity#ic_system_manager</item>
+		<item>com.gionee.softmanager|com.gionee.softmanager_com.gionee.softmanager.MainActivity#ic_system_manager</item>
+		<item>com.elf.manager|com.elf.manager_com.elf.manager.ui.activity.MainActivity#ic_system_manager</item>
+
+		<!--System Update-->
+		<item>com.cydroid.ota|com.cydroid.ota_com.cydroid.ota.ui.AnimOtaActivity#ic_system_update</item>
+		<item>com.rock.fota|com.rock.fota_com.rock.gota.MainActivity#ic_system_update</item>
+		<item>gn.com.android.update|gn.com.android.update_gn.com.android.update.SettingUpdate#ic_system_update</item>
+		<item>gn.com.android.update|gn.com.android.update_gn.com.android.update.ui.AnimOtaActivity#ic_system_update</item>
+		<item>com.mediatek.systemupdate|com.mediatek.systemupdate_com.mediatek.systemupdate.MainActivity#ic_system_update</item>
+
+		<!--Video-->
+		<item>com.cydroid.video|com.cydroid.video_com.cydroid.video.VideoTabMainActivity#ic_video</item>
+		<item>com.qiku.android.videoplayer|com.qiku.android.videoplayer_com.qiku.android.videoplayer.browser.MainActivity#ic_video</item>
+		<item>com.android.music|com.android.music_com.android.music.VideoBrowserActivity#ic_video</item>
+		<item>com.android.gallery3d|com.android.gallery3d_com.sprd.gallery3d.app.VideoActivity#ic_video</item>
+		<item>com.gionee.video|com.gionee.video_com.gionee.video.VideoMainActivity#ic_video</item>
+		<item>com.gionee.video|com.gionee.video_com.gionee.video.VideoTabMainActivity#ic_video</item>
+
+		<!--Weather-->
+		<item>com.coolwind.weather|com.coolwind.weather_com.coolwind.weather.SplashActivity#ic_weather</item>
+		<item>com.hola.weather|com.hola.weather_com.hola.weather.SplashActivity#ic_weather</item>
+		<item>com.coolwind.weather|com.coolwind.weather_com.coolwind.weather.SplashActivity#ic_weather</item>
+
+		<!--Xender-->
+		<item>cn.xender|cn.xender_cn.xender.messenger.MainActivity#ic_xender</item>
+
+		<!--screen recorder-->
+		<item>com.sprd.screencapture|com.sprd.screencapture_com.sprd.screencapture.ScreenCaptureActivity#ic_screen_recorder</item>
+
+		<!--local theme-->
+		<item>com.condor.themepark|com.condor.themepark_com.condor.themepark.MainActivity#ic_theme</item>
+	</string-array>
+</resources>

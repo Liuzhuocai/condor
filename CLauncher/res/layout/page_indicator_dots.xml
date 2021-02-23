@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.pageindicators.PageIndicatorDots
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    launcher:dotsRatio="@dimen/page_indicator_ratio"
+    launcher:minusOneIcon="@drawable/ic_minus_one_indicator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@style/HomeScreenElementTheme" />

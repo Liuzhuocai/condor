@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/settingItemHeight"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/condor_settings_padding_left"
+    android:paddingEnd="@dimen/condor_settings_padding_right">
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/condor_settings_icon_size"
+        android:layout_height="@dimen/condor_settings_icon_size"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="18dp" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/condor_settings_title_color"
+            android:textSize="@dimen/condor_settings_title_size" />
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorHint"/>
+    </LinearLayout>
+    <Switch
+        android:id="@android:id/switch_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="40dp"
+        android:thumb="@drawable/condor_settings_thumb"
+        android:track="@drawable/condor_settings_track" />
+</LinearLayout>
